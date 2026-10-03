@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ramenbet20casino.vercel.app/sitemap.xml
