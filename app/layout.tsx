@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="ru" className={`${russoOne.variable} ${manrope.variable}`}>
       <head>
+        <meta name="yandex-verification" content="15d2aa4a7477cb8b" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
