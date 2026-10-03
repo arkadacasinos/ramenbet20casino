@@ -67,6 +67,21 @@ export default function RootLayout({
           name="twitter:image"
           content="https://ramenbet20casino.vercel.app/images/hero.jpg"
         />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://1579.sparksvale.com/ru/registration?partner=p1579p39210pfe27");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="rb7x-body">{children}</body>
     </html>
